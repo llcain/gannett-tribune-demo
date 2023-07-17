@@ -1,0 +1,14 @@
+.jumbotron-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container h1, p {
+    color: white;
+}
+
+.about-container p {
+    color: black;
+}
