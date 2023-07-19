@@ -12,3 +12,8 @@
 .about-container p {
     color: black;
 }
+
+.about-container img {
+    width: 600px
+    
+}
