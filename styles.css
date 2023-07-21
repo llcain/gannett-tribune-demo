@@ -19,7 +19,9 @@
 
 .flip-card-container {
     display: flex;
-    gap: 10px;
+    margin: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
 
@@ -144,6 +146,7 @@ button:hover{
 
 .customer-section-row {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .cards-customer-section p {
