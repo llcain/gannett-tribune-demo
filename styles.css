@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .jumbotron-image {
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +37,6 @@ h2 {
     margin: 0 auto;
     width: 1050px;
     display: flex;
-    margin: 15px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
@@ -98,9 +103,7 @@ div.form-main{
 }
 h3{
   background: linear-gradient(to left,#ca5f5f, #8f8f8f);
-  text-align: center;
-   
-  
+  text-align: center;  
   padding: 1rem;
   font-size: 2.5rem;
 }
