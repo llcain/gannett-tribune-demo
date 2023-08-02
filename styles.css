@@ -9,12 +9,18 @@
     color: white;
 }
 
+.about-container{
+  width: 1050px;
+  margin: 0 auto;
+}
+
 .about-container p {
     color: black;
 }
 
 .about-container img {
-    width: 600px;    
+    width: 400px;  
+    object-fit: cover;  
 }
 
 .flip-card-container {
