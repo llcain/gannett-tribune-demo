@@ -83,6 +83,40 @@ h2 {
     transform: rotateY(180deg);
   }
 
+  .flip-card-2 {
+    width: 1050px;
+    margin: 0 auto;
+  }
+
+ .flip-card-row::after {
+  content: "";
+  display: table;
+  clear: both;
+ } 
+
+ .flip-card-col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ }
+
+  .practice-card {
+    display: flex;
+    margin-bottom: 20px;
+  }
+.practice-card-description {
+  margin: 0 15px;
+}
+
+ .practice-card img {
+  width: 170px;
+  height: 170px;
+ } 
+
+ .practice-card  p {
+  color: black;
+ }
+
 .card p {
     color: black;
 }
