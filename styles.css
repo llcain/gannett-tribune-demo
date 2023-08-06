@@ -20,6 +20,7 @@
 .about{
   width: 80%;
   margin: auto;
+  background: #0046ff;
 }
 
 .about-col {
@@ -29,10 +30,11 @@
 
 .about h2 {
   text-align: center;
+  color: #fff;
 }
 
 .about p {
-  color: black;
+  color: #fff;
 }
 
 .row {
