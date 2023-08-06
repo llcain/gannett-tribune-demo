@@ -11,6 +11,10 @@
     height: 100%;
 }
 
+.btn-primary {
+  background: #0046ff;
+}
+
 .container h1, p {
     color: white;
 }
