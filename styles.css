@@ -229,6 +229,25 @@ button:hover{
   background: linear-gradient(to right,rgb(89, 141, 236) 60%, rgb(173, 202, 255));
 }
 
+/* customer section styles */
+
+.customer-section {
+  width: 80%;
+  margin: auto;
+  background: #0046ff;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.customer-section h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+
 .customer-section-row {
   display: flex;
   justify-content: space-evenly;
@@ -241,6 +260,11 @@ button:hover{
 .cards-customer-section img {
  width: 300px;
  height: 300px;
+}
+
+.description p {
+  color: #fff;
+  padding-bottom: 20px;
 }
 
 @media screen  and (max-width:800px){
