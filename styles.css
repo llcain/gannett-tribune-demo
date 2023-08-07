@@ -16,7 +16,13 @@
 }
 
 .container h1, p {
-    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container p {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 /*  about section styles */
@@ -25,6 +31,8 @@
   width: 80%;
   margin: auto;
   background: #0046ff;
+  text-align: center;
+  padding-top: 100px;
 }
 
 .about-col {
