@@ -267,6 +267,13 @@ button:hover{
   padding-bottom: 20px;
 }
 
+/* footer section styles */
+
+.footer h2 {
+  text-align: center;
+  color: #0046ff;
+}
+
 @media screen  and (max-width:800px){
   div.main{
       width: 20rem;
