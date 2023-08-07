@@ -275,6 +275,28 @@ button:hover{
   padding-bottom: 20px;
 }
 
+/* testimonial section styles */
+
+.testimonial {
+  width: 80%;
+  margin: auto;
+  
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.testimonial-col {
+  flex-basis: 45%;
+}
+
 /* footer section styles */
 
 .footer h2 {
