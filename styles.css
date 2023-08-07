@@ -34,6 +34,13 @@
   margin-top: 50px;
 }
 
+/*  feature section styles */
+
+.feature {
+  background-image: url(./images/Gannett-Tribune.jpg);
+  width: 100%;
+}
+
 /* Jumbotron styles */
 
 .jumbotron-image {
