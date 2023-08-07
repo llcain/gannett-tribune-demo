@@ -253,6 +253,14 @@ button:hover{
   justify-content: space-evenly;
 }
 
+.cards-customer-section {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
 .cards-customer-section p {
   color: black;
 }
