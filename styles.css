@@ -55,35 +55,7 @@
   width: 100%;
 } */
 
-/* Jumbotron styles */
 
-.jumbotron-image {
-  background-image: url(./images/Gannett-Tribune.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
-.btn-primary {
-  background: #0046ff;
-}
-
-.container {
-  margin-left: 50px;
-}
-
-.container h1 {
-    font-size: 25px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.container p {
-  font-size: 15px;
-  font-weight: 300;
-  color: #fff;
-}
 
 /*  about section styles */
 
