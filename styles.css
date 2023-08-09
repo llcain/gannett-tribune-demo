@@ -8,8 +8,7 @@
 
 .header {
   width: 80%;
-  height: 150px;
-  
+  height: 150px;  
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -26,6 +25,7 @@
 
 .nav-links li a {
   margin: 15px 10px;
+  text-decoration: none;
   
 }
 
@@ -34,16 +34,31 @@
   margin-top: 50px;
 }
 
+/* burger menu */
+
+/* .burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 5px;
+  background-color: green;
+  margin: 5px;
+} */
+
 /*  feature section styles */
 
-.feature {
+/* .feature {
   background-image: url(./images/Gannett-Tribune.jpg);
   width: 100%;
-}
+} */
 
 /* Jumbotron styles */
 
 .jumbotron-image {
+  background-image: url(./images/Gannett-Tribune.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,8 +69,12 @@
   background: #0046ff;
 }
 
-.container h1, p {
-    font-size: 20px;
+.container {
+  margin-left: 50px;
+}
+
+.container h1 {
+    font-size: 25px;
     font-weight: 600;
     color: #fff;
 }
@@ -63,6 +82,7 @@
 .container p {
   font-size: 15px;
   font-weight: 300;
+  color: #fff;
 }
 
 /*  about section styles */
@@ -77,7 +97,7 @@
 
 .about-col {
   flex-basis: 50%;
-  padding: 200px;
+  padding: 150px;
 }
 
 .about h2 {
@@ -94,13 +114,13 @@
 .row {
   display: flex;
   margin-top: 5%;
-  justify-content: space-between;
+  align-items: center;
   
 }
 
 .about img {
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 450px;
   object-fit: contain;
 }
 
@@ -343,6 +363,44 @@ button:hover{
   text-align: center;
   color: #0046ff;
 }
+
+/* media query */
+
+/* @media (max-width: 1024) {
+  .nav-links {
+    width: 60%;
+  }
+} */
+
+@media (max-width: 700px) {
+  .logo h1 {
+    font-size: 15px;
+  }  
+}
+
+/* @media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #ca5f5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+
+  }
+
+  
+} */
 
 @media screen  and (max-width:800px){
   div.main{
