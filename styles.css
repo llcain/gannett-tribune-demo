@@ -115,7 +115,7 @@ nav a {
 
 
 
-/*  about section styles */
+ /* about section styles
 
 .about{
   width: 80%;
@@ -153,6 +153,24 @@ nav a {
   height: 450px;
   object-fit: contain;
   border-radius: 1.6rem;
+} */
+
+.about img {
+  width: 200px;
+  height: 200px;
+}
+
+.text-box {
+  width: 450px;
+  height: 300px;
+  /* background-color: green; */
+  text-align: center;
+  color: white;
+  margin: 150px auto;
+}
+
+.text-box h1 {
+  font-size: 62px;
 }
 
 .what-we-do h2 {
