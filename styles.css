@@ -216,7 +216,7 @@ nav a {
   font-size: 62px;
 }
 
-/* what we do styles */
+/* what we do page styles */
 
 .what-we-do-header {
   min-height: 70vh;
@@ -227,9 +227,23 @@ nav a {
  position: relative;
 }
 
+.what-we-do-col {
+  flex-basis: 33%;
+}
+
 .what-we-do h2 {
   text-align: center;
   margin-top: 50px;
+}
+
+.what-we-do .row {
+  background-color: purple;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 150px;
+    padding-top: 15px;
+    margin-top: 20px;
 }
 
 .flip-card-container {
