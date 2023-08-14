@@ -155,6 +155,16 @@ nav a {
   border-radius: 1.6rem;
 } */
 
+/* about page styles */
+
+.sub-header {
+ width: 100%;
+ background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/Gannett-Tribune.jpg);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+}
+
 .about img {
   width: 200px;
   height: 200px;
@@ -165,8 +175,20 @@ nav a {
   padding: 50px 0;
 }
 
+.about .row {
+  margin: 0 auto;
+  max-width: 80%;
+  background-color: green;
+}
+
+
 .about-col {
   flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 30px;
+  margin: 10px 20px;
 }
 
 .text-box {
@@ -181,6 +203,8 @@ nav a {
 .text-box h1 {
   font-size: 62px;
 }
+
+/* what we do styles */
 
 .what-we-do h2 {
   text-align: center;
