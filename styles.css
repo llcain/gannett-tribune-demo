@@ -165,10 +165,21 @@ nav a {
  position: relative;
 }
 
-.about img {
-  width: 200px;
-  height: 200px;
+.about {
+  margin-bottom: 20px;
 }
+
+.about-col .title {
+  margin-top: 20px;
+}
+
+.about img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 1.6rem;
+}
+
 
 .about h2 {
   text-align: center;
@@ -178,6 +189,7 @@ nav a {
 .about .row {
   margin: 0 auto;
   max-width: 80%;
+  height: 700px;
   background-color: green;
 }
 
@@ -205,6 +217,15 @@ nav a {
 }
 
 /* what we do styles */
+
+.what-we-do-header {
+  min-height: 70vh;
+  width: 100%;
+ background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/Gannett-Tribune.jpg);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+}
 
 .what-we-do h2 {
   text-align: center;
