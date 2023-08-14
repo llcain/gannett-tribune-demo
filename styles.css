@@ -334,6 +334,19 @@ nav a {
     color: black;
 }
 
+/* customer's page styles */
+
+.customer-header {
+  height: 70vh ;
+  width: 100%;
+ background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/Gannett-Tribune.jpg);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+}
+
+/* contact form styles */
+
 .contact-section {
   background: linear-gradient(to right,cornflowerblue, #f6f6f6);
   padding: 15px 0;
