@@ -160,6 +160,15 @@ nav a {
   height: 200px;
 }
 
+.about h2 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.about-col {
+  flex-basis: 50%;
+}
+
 .text-box {
   width: 450px;
   height: 300px;
@@ -279,7 +288,7 @@ div.form-main{
   background-color: #f6f6f6;
   border-radius: 1rem;
 }
-h3{
+.form-main h3{
   background: linear-gradient(to left,#ca5f5f, #8f8f8f);
   text-align: center;  
   padding: 1rem;
