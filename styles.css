@@ -168,6 +168,28 @@ nav a {
   border-radius: 1.6rem;
 } */
 
+/* home page styles */
+
+
+.what-we-do-home-row {
+  display: flex;
+  align-items: center;
+  padding: 0 250px;
+}
+
+.what-we-do img {
+  width: 600px;
+  border-radius: 100px;
+}
+
+.what-we-do p {
+  font-size: 3em;
+}
+
+.what-we-do-col {
+  flex-basis: 50%;
+}
+
 /* about page styles */
 
 .sub-header {
@@ -272,7 +294,7 @@ nav a {
 }
 
 .what-we-do .row {
-  background-color: purple;
+  
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
