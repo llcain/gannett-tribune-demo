@@ -168,6 +168,14 @@ nav a {
   border-radius: 1.6rem;
 } */
 
+/* main content styles */
+
+.main-content {
+  background-color: purple;
+  margin: auto;
+  width: 1522px;
+}
+
 /* home page styles */
 
 
