@@ -491,10 +491,29 @@ nav a {
 .contact-section {
   background: linear-gradient(to right,cornflowerblue, #f6f6f6);
   padding: 15px 0;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
-div.form-main{
+.contact-info {
+  display: flex;
+    justify-content: center;
+    margin: 15px 50px;
+}
+
+.contact-hours {
+  display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.form-container {
+  background: green;
+    max-width: 60rem;
+    padding: 100px 60p;
+    margin: auto;
+}
+
+/* div.form-main{
   width: 60rem;
   height: 25rem;
   padding: 15px;
@@ -559,7 +578,7 @@ button:hover{
 }
 .reset{
   background: linear-gradient(to right,rgb(89, 141, 236) 60%, rgb(173, 202, 255));
-}
+} */
 
 /* customer section styles */
 
