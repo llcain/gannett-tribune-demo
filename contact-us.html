@@ -95,22 +95,25 @@
 
         <div class="form">
           <label for="fname">First Name</label>
-          <input type="text" name="firstName" required="required" placeholder="Your first name..." size="15" maxlength="30"/>
+          <input type="text" id="fname" name="firstName" required="required" placeholder="Your first name..." size="15" maxlength="30"/>
           
           <label for="lname">Last Name</label>
-          <input type="text" name="lastName" required="required" placeholder="Your last name..." size="15" maxlength="30"/>
+          <input type="text" id="lname" name="lastName" required="required" placeholder="Your last name..." size="15" maxlength="30"/>
           
           <label for="email">Email</label>
-          <input type="text" name="email" required="required" placeholder="Your email..." size="15" maxlength="30"/>
+          <input type="text" id="email" name="email" required="required" placeholder="Your email..." size="15" maxlength="30"/>
           
           <label for="telephone">Telephone</label>
-          <input type="text" name="telephoneNumber" required="required" placeholder="Telephone" size="15" maxlength="30"/>
+          <input type="text" name="telephoneNumber" id="telephone" required="required" placeholder="Telephone" size="15" maxlength="30"/>
           
           <label for="message">Message</label>
-          <textarea name="comments" cols="30" rows="10"></textarea>
+          <textarea name="comments" id="message" cols="30" rows="10"></textarea>
+
+          
         </div>
+        <input type="submit" id="submit-button" value="Submit">
         
-        <button>Submit</button>
+      
       </div>
     </div>    
   

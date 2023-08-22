@@ -507,12 +507,32 @@ nav a {
 }
 
 .form-container {
-  background: green;
-    max-width: 60rem;
+    max-width: 1000px;
     padding: 100px 60p;
     margin: auto;
 }
 
+.form {
+  display: grid;
+  font-size: 2rem;
+}
+
+label {
+  margin: 15px 0
+}
+
+input {
+  padding: 15px;
+  margin: 15px 0
+  
+}
+
+#submit-button {
+  background-color: #0046ff;
+  width: 300px;
+    color: white;
+    font-size: 2rem;
+}
 /* div.form-main{
   width: 60rem;
   height: 25rem;
