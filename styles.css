@@ -181,6 +181,12 @@ nav a {
 .text-box h1 {
   margin-bottom: 15px;
 }
+
+.what-we-do h2 {
+  font-size: 30px;
+  padding: 25px 30px
+}
+
 .what-we-do-home-row {
   display: flex;
   align-items: center;
@@ -201,9 +207,18 @@ nav a {
 
 .what-we-do-col-1 p {
   line-height: 2.4em;
+  font-size: 25px;
   margin-right: 10px;
 }
 
+.what-we-do-col-2 > div {
+  margin-left: 45px;
+}
+
+.customers img {
+  width: 450px;
+    border-radius: 100px;
+}
 
 
 
