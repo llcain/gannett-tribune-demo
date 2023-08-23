@@ -171,7 +171,6 @@ nav a {
 /* main content styles */
 
 .main-content {
-  background-color: purple;
   margin: auto;
   width: 1522px;
 }
@@ -179,7 +178,11 @@ nav a {
 /* home page styles */
 
 .text-box h1 {
-  margin-bottom: 15px;
+  margin-bottom: 15px;  
+}
+
+.text-box p {
+  font-size: 20px
 }
 
 .what-we-do h2 {
