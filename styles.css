@@ -227,6 +227,10 @@ nav a {
   width: 572px;
 }
 
+.customer-col-2 > div {
+  margin-left: 45px;
+}
+
 .customers-col-2 p {
   line-height: 2.4em;
     font-size: 25px;
@@ -268,6 +272,10 @@ nav a {
   padding-bottom: 50px;
   padding-top: 50px;
   width: 572px;
+}
+
+.testimonial-col-2 > div {
+  margin-left: 45px;
 }
 
 .testimonial-col-2 img {
