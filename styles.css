@@ -178,7 +178,9 @@ nav a {
 
 /* home page styles */
 
-
+.text-box h1 {
+  margin-bottom: 15px;
+}
 .what-we-do-home-row {
   display: flex;
   align-items: center;
@@ -192,6 +194,8 @@ nav a {
 
 .what-we-do-col-1, .what-we-do-col-2 {
   height: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   width: 572px;
 }
 
@@ -249,7 +253,7 @@ nav a {
   margin: 0 auto;
   max-width: 80%;
   height: 700px;
-  background-color: green;
+  
 }
 
 
