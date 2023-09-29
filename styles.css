@@ -360,6 +360,10 @@ nav a {
     margin-top: 20px;
 }
 
+.what-we-do:nth-last-child(2) {
+  margin-right: 150px;
+}
+
 .flip-card-container {
     margin: 0 auto;
     width: 1050px;
