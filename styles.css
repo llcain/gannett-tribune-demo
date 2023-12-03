@@ -117,6 +117,14 @@ nav a {
   width: 100%;
 }
 
+.text-box h1, p {
+  color: #0046ff;
+}
+
+.text-box p {
+  font-size: 40px;
+}
+
 
 
 /* main content styles */
